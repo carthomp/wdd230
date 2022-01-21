@@ -17,9 +17,10 @@ body {
 
 h1, h2, h3 {
     font-family: 'DM Sans', sans-serif;
+    text-align: center;
 }
 
-.content p, .content a {
+.content p, .content a, li {
     font-family: 'Lato', sans-serif;
 }
 
@@ -93,7 +94,7 @@ img {
 
 h3 {
     height: 100%;
-    padding-top: 1vw;
+    padding: 0.25em;
     background-color: var(--heading-bg-color);
     color: var(--heading-text-color)
 }
@@ -139,10 +140,6 @@ h3 {
     text-align: center;
 }
 
-.dm-sans {
-    padding: 1vw;
-}
-
 footer {
     display: grid;
     grid-template-rows: 0.8em 0.8em;
@@ -159,4 +156,13 @@ footer p {
 
 #last-modified {
     grid-column: 1/-1;
+}
+
+th {
+    background-color: var(--header-heading-color);
+    padding: 2vw;
+}
+
+td p {
+    padding: 2vw;
 }

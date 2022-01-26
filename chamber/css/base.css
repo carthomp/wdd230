@@ -1,0 +1,133 @@
+:root {
+    --main-bg-color: #DFDDE4;
+    --main-text-color: black;
+    --header-footer-bg-color: black;
+    --header-footer-text-color: white;
+    --header-heading-color: #726C89;
+    --nav-bg-color: #726C89;
+    --nav-text-color: white;
+    --nav-hover-bg-color: #5E0822;
+    --heading-bg-color: #5E0822;
+    --heading-text-color: white;
+}
+
+main {
+    max-width: 1000px;
+}
+
+h1, header h2, header nav {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.logo {
+    max-width: 200px;
+    min-width: 150px;
+    width: 20vw;
+}
+
+header, footer {
+    background-color: var(--header-footer-bg-color);
+    color: var(--header-footer-text-color);
+    text-align: center;
+    align-content: center;
+}
+
+header img {
+    float: center;
+    padding: 10px;
+}
+
+header h1 {
+    color: var(--header-footer-text-color);
+}
+
+header h2 {
+    color: var(--header-heading-color);
+}
+
+h1, h2, h3 {
+    font-family: "DM Sans", sans-serif;
+}
+
+p, a, li {
+    font-family: "Lato", sans-serif;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+    clear: left;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+    padding: 10px;
+}
+
+a {
+    color: var(--nav-text-color);
+}
+
+.navigation li:hover {
+    background-color: var(--nav-hover-bg-color);
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive li:first-child {
+    background-color: var(--nav-hover-bg-color);
+}
+
+section {
+    margin: 10px;
+    border: solid 1px black;
+    text-align: center;
+    min-height: 225px;
+}
+
+#spotlight-section {
+    display: grid;
+}
+
+#spotlight-section div {
+    margin: 10px;
+    border: solid 1px black;
+    text-align: center;
+}
+
+footer .logo {
+    float: left;
+    margin: auto;
+}
+
+footer p {
+    clear: both;
+}
+
+.footer-links {
+    margin: 2.5vw;
+    padding: 2.5vw;
+}
+
+.social {
+    max-width: 50px;
+    width: 15vw;
+    float: right;
+}
+
+#twt {
+    clear: right;
+}
+
+.footer-text {
+    padding: 10px;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 750px) {
+    h1, h2, h3 {
+        font-size: 2.25em;
+    }
+
+    p, a, li {
+        font-size: 1.1em;
+    }
+
+    #spotlight-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main {
+        margin: auto;
+    }
+
+    #spotlight-section div {
+        min-width: 250px;
+    }
+}

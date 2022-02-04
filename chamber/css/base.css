@@ -33,6 +33,10 @@ header, footer {
     align-content: center;
 }
 
+header h1 {
+    padding: 2vw;
+}
+
 header img {
     padding: 10px;
 }
@@ -45,12 +49,22 @@ header h2 {
     color: var(--header-heading-color);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: "DM Sans", sans-serif;
+}
+
+h4 {
+    color: var(--heading-bg-color);
+    border: solid 1px var(--heading-bg-color);
+    padding: 2px;
 }
 
 p, a, li {
     font-family: "Lato", sans-serif;
+}
+
+#event-section p a {
+    color: black;
 }
 
 .navigation {
@@ -76,6 +90,7 @@ a {
 
 .navigation li:hover {
     background-color: var(--nav-hover-bg-color);
+    font-style: italic;
 }
 
 .responsive li {
@@ -89,18 +104,95 @@ a {
 section {
     margin: 10px;
     border: solid 1px black;
+    border-radius: 10px;
     text-align: center;
     min-height: 225px;
+    overflow: hidden;
 }
 
-#spotlight-section {
-    display: grid;
+section p {
+    padding: 10px;
 }
 
-#spotlight-section div {
+h3 { 
+    background-color: var(--heading-bg-color);
+    color: var(--heading-text-color);
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+#call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    border: solid 3px black;
+    border-radius: 10px;
+    padding: 2vw;
+    font-size: 1.25em;
+}
+
+button:hover {
+    background-color: var(--heading-bg-color);
+    color: white;
+    border: solid 3px black;
+    font-style: italic;
+}
+
+#library-wide {
+    max-width: 100%;
+    float: left;
+}
+
+#library-tall {
+    display: none;
+}
+
+#spotlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+}
+
+#spotlight-section img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+#spotlight1, #spotlight2, #spotlight3 {
     margin: 10px;
     border: solid 1px black;
     text-align: center;
+}
+
+#spotlight3 {
+    display: none;
+}
+
+#weather-section {
+    width: 80vw;
+    margin: auto;
+}
+
+#current-weather {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+#temp {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#weather-section img {
+    max-width: 200px;
+    margin: 10px;
 }
 
 footer .logo {

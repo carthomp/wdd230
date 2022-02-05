@@ -11,6 +11,10 @@ let lastModifiedFull = new Date(currentDateAndTime);
 let lastModified = `${lastModifiedFull.getMonth() + 1}/${lastModifiedFull.getDate()}/${currentYear} ${lastModifiedFull.getHours()}:${lastModifiedFull.getMinutes()}:${lastModifiedFull.getSeconds()}`;  
 document.getElementById("last-modified").innerHTML = "Last Modified: " + lastModified;
 
+const displayEventBanner = function () {
+    document.getElementById('event-banner').style.display = "block";
+}
+
 const dateElement = document.getElementById("current-date");
 const currentDayDigit = currentDateAndTime.getDay();
 let currentDay = ""
@@ -20,9 +24,11 @@ switch (currentDayDigit) {
         break
     case 1:
         currentDay = "Monday";
+        displayEventBanner();
         break
     case 2:
         currentDay = "Tuesday";
+        displayEventBanner();
         break
     case 3:
         currentDay = "Wednesday";

@@ -101,6 +101,21 @@ a {
     background-color: var(--nav-hover-bg-color);
 }
 
+#event-banner {
+    display: none;
+    text-align: center;
+    background-color: var(--header-footer-bg-color);
+    color: var(--heading-text-color);
+    margin: 0;
+    font-size: 2em;
+}
+
+#event-banner p {
+    padding: 20px;
+    margin: 0;
+    font-style: italic;
+}
+
 section {
     margin: 10px;
     border: solid 1px black;

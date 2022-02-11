@@ -192,7 +192,7 @@ button:hover {
 
 #weather-section {
     width: 80vw;
-    margin: auto;
+    margin: 10 auto 10 auto;
 }
 
 #current-weather {
@@ -208,6 +208,10 @@ button:hover {
 #weather-section img {
     max-width: 200px;
     margin: 10px;
+}
+
+#weather-section p {
+    margin: 0;
 }
 
 footer .logo {

@@ -1,0 +1,52 @@
+.hover:hover {
+    font-size: 2em;
+    color: red;
+}
+
+.active:active {
+    font-style: italic;
+    color: white;
+    background-color: red;
+}
+
+.link:link {
+    color: maroon;
+}
+
+.link:visited {
+    color: green;
+}
+
+.focus:focus {
+    background-color: red;
+}
+
+.empty:required {
+    border: solid 1px red;
+}
+
+.last-child:last-child {
+    color: purple;
+}
+
+.after li::after {
+    content: " <!!!>";
+    color: red;
+}
+
+.first-letter::first-letter {
+    font-size: 500%;
+}
+
+.first-line {
+    max-width: 250px;
+}
+
+.first-line:first-line {
+    font-size: 150%;
+}
+
+.selection::selection {
+    color: orange;
+    background-color: gray;
+}

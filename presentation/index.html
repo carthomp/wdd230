@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Presentation Example</title>
+</head>
+<body>
+    <h1>Pseudo Classes and Pseudo Elements</h1>
+    <h2>Pseudo Classes</h2>
+    <p class="hover">I am a paragraph with a hover effect!</p>
+    <a href="#" class="hover active">I am an 'a' tag with a hover effect and an active effect!</a>
+    <p></p>
+    <a href="https://pointerpointer.com" class="link">I am maroon before I am clicked, and green afterwards, thanks to the 'link' and 'visited' pseudo-classes!</a>
+    <p></p>
+    <label for="name">When you click in this box, the box will change color using the 'focus' class</label>
+    <input type="text" class="focus" name="name" required>
+    <p></p>
+    <label for="text">This box is a required field. We can use 'required' to give it a red border.</label>
+    <input type="text" class="empty" name="name" required>
+    <p></p>
+    <ul>
+        <li class="last-child">Every item in this list will be formatted normally,</li>
+        <li class="last-child">Except for the last child. It will have purple text</li>
+        <li class="last-child">using the 'last-child' class.</li>
+    </ul>
+
+    <h2>Psuedo Elements</h2>
+    <ul class="after">
+        <li>Using the 'after' element, we can add the same content as a new element to the end of each line.</li>
+        <li>You could use it to slap a '->' after each link,</li>
+        <li>or just to add some fun style and flair.</li>
+        <li>You can format this extra text as you would any other element!</li>
+    </ul>
+    <p class="first-letter">Want to do that weird thing they do in old storybooks where the first letter is huge? Use 'first-letter'</p>
+    <p class="first-line">Alternatively, you can use 'first-line' to apply special formatting to the entire first line of a paragraph.</p>
+    <p class="selection">Select me with the cursor to see the power of the 'selection' element!</p>
+</body>
+</html>

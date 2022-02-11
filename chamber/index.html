@@ -34,8 +34,13 @@
         <section id="hero-section">
             <h3>Welcome to Aggieland!</h3>
             <div id="call-to-action">
-                <img id="library-wide" src="images/library_wide.jpg" alt="George Bush Presidential Library - College Station, TX">
-                <img id="library-tall" src="images/library_tall.jpg" alt="George Bush Presidential Library - College Station, TX">
+                <!-- <img id="library-wide" src="images/library_wide.jpg" alt="George Bush Presidential Library - College Station, TX">
+                <img id="library-tall" src="images/library_tall.jpg" alt="George Bush Presidential Library - College Station, TX"> -->
+                <picture>
+                    <source srcset="images/optimize-medium.jpg" media="(min-width: 750px) and (max-width: 999px)">
+                    <source srcset="images/optimize-large.jpg" media="(min-width: 1000px)">
+                    <img src="images/optimize-small.jpg" alt="optimized jpg">
+                </picture>
                 <button>Join the Chamber</button>
             </div>
         </section>
@@ -45,9 +50,11 @@
         </section>
         <section id="weather-section">
             <h3>Weather</h3>
-            <p id="temp">21° F</p>
+            <p id="temp"><span id="temp-value">58</span>° F</p>
             <img src="images/cloudy.png" alt="Cloudy Weather">
             <p id="current-weather">Cloudy</p>
+            <p id="wind-speed">Wind Speed: <span id="wind-speed-value">0</span> mph</p>
+            <p id="windchill"></p>
         </section>
         <section id="news-section">
             <h3>News Release</h3>
@@ -97,5 +104,6 @@
         </div>
     </footer>
     <script src="js/scripts.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>

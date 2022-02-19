@@ -54,4 +54,25 @@
         grid-column: 2/3;
         width: auto;
     }
+
+    .discover-flex-small {
+        display: none;
+    }
+
+    .discover-flex-large {
+        display: flex;
+        flex-direction: column;
+        max-width: 800px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .discover-flex-large img {
+        max-width: 800px;
+    }
+
+    .discover-flex-large img:hover {
+        opacity: 0.75;
+        border: solid 3px maroon;
+    }
 }

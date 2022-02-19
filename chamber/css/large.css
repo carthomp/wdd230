@@ -131,4 +131,8 @@
         float: none;
         clear: none;
     }
+
+    .discover-flex-large {
+        margin-left: 100px;
+    }
 }

@@ -59,8 +59,13 @@ h4 {
     padding: 2px;
 }
 
-p, a, li {
+p, a, li, label, input {
     font-family: "Lato", sans-serif;
+}
+
+#submit-button {
+    background-color: var(--heading-bg-color);
+    color: white;
 }
 
 main p a {

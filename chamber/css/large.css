@@ -16,7 +16,7 @@
         display: block;
     }
 
-    main {
+    .home-main {
         grid-template-rows: auto auto auto auto;
         grid-template-columns: 1fr 2fr 1fr;
     }
@@ -134,5 +134,21 @@
 
     .discover-flex-large {
         margin-left: 100px;
+    }
+
+    form {
+        display: grid;
+        grid-template-columns: 495px 495px;
+        grid-gap: 10px;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    #submit-button {
+        grid-column: 1/-1;
+    }
+
+    main {
+        margin: auto;
     }
 }

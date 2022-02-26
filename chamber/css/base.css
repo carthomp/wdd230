@@ -263,3 +263,14 @@ footer p {
     text-align: center;
     font-style: italic;
 }
+
+form {
+    max-width: 100%;
+    margin: auto;
+}
+
+.thankyou {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}

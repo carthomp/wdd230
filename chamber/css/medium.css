@@ -13,7 +13,7 @@
         justify-content: space-around;
     }
 
-    main {
+    .home-main {
         margin: auto;
         display: grid;
         grid-template-rows: auto auto auto auto;
@@ -74,5 +74,18 @@
     .discover-flex-large img:hover {
         opacity: 0.75;
         border: solid 3px maroon;
+    }
+
+    form {
+        width: 750px;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    #submit-button {
+        grid-column: 1/-1;
     }
 }

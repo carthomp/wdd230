@@ -1,0 +1,87 @@
+{
+    "businesses": [
+      {
+        "name": "HEB",
+        "address": "11675 Wellborn Rd, College Station, TX 77845",
+        "phonenum": "(979)680-3200",
+        "website": "https://heb.com",
+        "logo": "images/heb-logo-png-3.png"
+      },
+      {
+        "name": "Aggieland Outfitters",
+        "address": "208 George Bush Dr, College Station, TX 77840",
+        "phonenum": "(979)680-8780",
+        "website": "https://aggielandoutfitters.com",
+        "logo": "images/ao_logo.png"
+      },
+      {
+        "name": "Fuego Tortilla Grill",
+        "address": "108 Poplar St, College Station, TX 77840",
+        "phonenum": "(979)703-1804",
+        "website": "http://www.fuegotortillagrill.com/",
+        "logo": "images/fuego_logo.png"
+      },
+      {
+        "name": "C&J Barbeque",
+        "address": "105 Southwest Pkwy #100, College Station, TX 77840",
+        "phonenum": "(979)696-7900",
+        "website": "http://www.cjbbq.com/",
+        "logo": "images/candj_logo.png"
+      },
+      {
+        "name": "Caminos de Michoacan Mexican Cafe",
+        "address": "11907 Farm to Market Rd 2154 #101, College Station, TX 77845",
+        "phonenum": "(979)485-2055",
+        "website": "http://ordercaminosmexicancafe.com/",
+        "logo": "images/caminos_logo.png"
+      },
+      {
+        "name": "Saltgrass Steakhouse",
+        "address": "4330 Texas 6 Frontage Rd, College Station, TX 77845",
+        "phonenum": "(979)690-0562",
+        "website": "https://saltgrass.com",
+        "logo": "images/saltgrass_logo.png"
+      },
+      {
+        "name": "Urban Table",
+        "address": "3006 Barron Rd Suite 100, College Station, TX 77845",
+        "phonenum": "(979)307-5611",
+        "website": "https://urbantabletx.com",
+        "logo": "images/urban_table_logo.png"
+      },
+      {
+        "name": "The Stella Hotel",
+        "address": "4100 Lake Atlas Dr, Bryan, TX 77807",
+        "phonenum": "(979)421-4000",
+        "website": "https://thestellahotel.com",
+        "logo": "images/stella_logo.png"
+      },
+      {
+        "name": "Easterwood Airport",
+        "address": "1 McKenzie Terminal Blvd, College Station, TX 77845",
+        "phonenum": "(979)775-9900",
+        "website": "https://www.flyeasterwood.com/",
+        "logo": "images/easterwood_logo.png"
+      },
+      {
+        "name": "Academy Sports + Outdoors",
+        "address": "2511 Earl Rudder Fwy, College Station, TX 77845",
+        "phonenum": "(979)680-5040",
+        "website": "https://academy.com",
+        "logo": "images/academy_logo.png"
+      },
+      {
+        "name": "9Round - College Station",
+        "address": "2216 Texas Ave S, College Station, TX 77840",
+        "phonenum": "(979)696-2150",
+        "website": "https://www.9round.com/locations/tx/college-station/texas-ave",
+        "logo": "images/9round-logo.jpg"
+      },
+      {
+        "name": "Gumby's Pizza Aggieland",
+        "address": "1102 Harvey Rd, College Station, TX 77840",
+        "phonenum": "(979)764-8629",
+        "website": "https://www.gumbyspizzaaggieland.com/",
+        "logo": "images/gumbys_logo.png"
+      }
+    ]}

@@ -151,4 +151,8 @@
     main {
         margin: auto;
     }
+
+    .view-button {
+        position: static;
+    }
 }

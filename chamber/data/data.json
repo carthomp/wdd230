@@ -1,7 +1,7 @@
 {
     "businesses": [
       {
-        "name": "HEB",
+        "name": "HEB Grocery",
         "address": "11675 Wellborn Rd, College Station, TX 77845",
         "phonenum": "(979)680-3200",
         "website": "https://heb.com",
@@ -75,7 +75,7 @@
         "address": "2216 Texas Ave S, College Station, TX 77840",
         "phonenum": "(979)696-2150",
         "website": "https://www.9round.com/locations/tx/college-station/texas-ave",
-        "logo": "images/9round-logo.jpg"
+        "logo": "images/9round_logo.jpg"
       },
       {
         "name": "Gumby's Pizza Aggieland",

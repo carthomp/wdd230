@@ -88,4 +88,25 @@
     #submit-button {
         grid-column: 1/-1;
     }
+
+    .listview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        font-size: 0.75em;
+    }
+
+    .listview a {
+        padding: 10px;
+    }
+
+    .card-display {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr))
+    }
+
+    .inactive {
+        display: none;
+    }
 }

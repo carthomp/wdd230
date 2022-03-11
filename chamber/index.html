@@ -50,10 +50,10 @@
         </section>
         <section id="weather-section">
             <h3>Weather</h3>
-            <p id="temp"><span id="temp-value">58</span>° F</p>
-            <img src="images/cloudy.png" alt="Cloudy Weather">
-            <p id="current-weather">Cloudy</p>
-            <p id="wind-speed">Wind Speed: <span id="wind-speed-value">0</span> mph</p>
+            <p id="temp"><span id="temp-value"></span>° F</p>
+            <img id="weathericon">
+            <p id="current-weather"></p>
+            <p id="wind-speed">Wind Speed: <span id="wind-speed-value"></span> mph</p>
             <p id="windchill"></p>
         </section>
         <section id="news-section">
@@ -101,9 +101,10 @@
                 <p><a href="https://www.google.com/maps/place/College+Station,+TX/@30.5908321,-96.3618731,12z/data=!3m1!4b1!4m5!3m4!1s0x8646848619463ca3:0xc969c74db6bf6ac9!8m2!3d30.627977!4d-96.3344068" class="map-link topline" target="blank_">Location Map</a></p>
                 <p id="last-modified"></p>
             </div>
+            <p>Weather Data Sourced from OpenWeatherMap: <a href="https://openweathermap.org/" target="blank_">https://openweathermap.org/</a></p>
         </div>
     </footer>
     <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
 </body>
 </html>

@@ -12,7 +12,6 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
         const businesses = jsonObject["businesses"];
         businesses.forEach(displayBusinessCards);
         businesses.forEach(displayBusinessList);
@@ -71,7 +70,6 @@ const displayBusinessList = function (business) {
 
 let cardViewActive = true;
 let intViewportWidth = window.innerWidth;
-console.log(intViewportWidth);
 if (intViewportWidth < 750) {
     listDisplay.classList.add("inactive");
 } else if (intViewportWidth < 1000) {

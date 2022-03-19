@@ -14,13 +14,11 @@ let lastMS = parseInt(storage.getItem('lastVisitTime'));
 if (lastMS) {
     let diffMS = currentMS - lastMS;
     days = Math.round(diffMS / 86400000);
-    console.log(days);
     storage.setItem("lastVisitTime", currentMS);
 }
 else {
     storage.setItem("lastVisitTime", currentMS);
     days = 0
-    console.log(days, " Didn't find a last visit")
 }
 
 let daysAgo = document.getElementById("days-since-visit");

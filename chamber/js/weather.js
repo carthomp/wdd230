@@ -3,7 +3,6 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=4682464&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     let temp = document.querySelector('#temp-value');
     let tempVal = jsObject.main.temp.toFixed(0);
     temp.textContent = tempVal;

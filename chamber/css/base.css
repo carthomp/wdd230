@@ -323,3 +323,29 @@ form {
     width: auto;
     margin: auto;
 }
+
+.contact-main h3 {
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+}
+
+.contact-form {
+    padding: 10px 0 10px 0;
+}
+.pair {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.pair label {
+    padding: 5px 0 5px 0;
+}
+
+.required-highlight {
+    background-color: lightcoral;
+}
